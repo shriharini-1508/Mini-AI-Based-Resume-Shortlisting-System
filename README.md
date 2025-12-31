@@ -1,40 +1,21 @@
 # Mini-AI-Based-Resume-Shortlisting-System[index.html](https://github.com/user-attachments/files/24394084/index.html)
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MINI AI-BASED RESUME SHORTLISTING SYSTEM</title>
-    <link rel="stylesheet" href="style.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-</head>
-<body>  
-   <div class="header-container">
-    <img src="images/iimages9.webp" alt="Project Logo" class="logo-img">
-<h1 style="text-align: center; margin-top: 50px;"><u><b>RESUME SHORTLISTING</b></u></h1>
-</div>    
-   
-    <br>
-    <span>
-  <div class="content-box">
-  <h2 class="about-title " style="text-align: center; font-size: 35px;"><b>ABOUT</b></h2><br>
-  <p class="about-text" style="font-size: 30px; text-align: justify;" ><b>
-    This web application is designed to simplify the resume screening process for HR professionals and help students improve their resumes.
-    The system analyzes multiple resumes based on predefined skill-matching rules and generates a score, status, and suggestions.
-    It reduces manual effort in shortlisting candidates and provides guidance to improve resume quality, especially for freshers and job seekers.
-    This platform also supports faster and more consistent decision-making in the recruitment process.
-  </b></p>
- <br>
+| DATE        | DAY       | NAME OF MODULE / TASK COMPLETED                                                     |
+| ----------- | --------- | ----------------------------------------------------------------------------------- |
+| 24 DEC 2025 | WEDNESDAY | PROJECT IDEA FINALIZATION, SELECTION OF PROJECT THEME, LOGO AND IMAGE SELECTION     |
+| 25 DEC 2025 | THURSDAY  | PROJECT REQUIREMENT ANALYSIS, FINALIZING TOTAL NUMBER OF PAGES AND WORK FLOW DESIGN |
+| 26 DEC 2025 | FRIDAY    | DESIGNING USER INTERFACE LAYOUT, CREATING WIREFRAME FOR ALL 6 PAGES                 |
+| 27 DEC 2025 | SATURDAY  | CREATING HOME PAGE USING HTML AND CSS, BASIC PAGE STRUCTURE IMPLEMENTATION          |
+| 28 DEC 2025 | SUNDAY    | DEVELOPING INPUT PAGE AND GUIDANCE PAGE USING HTML, CSS AND JAVASCRIPT              |
+| 29 DEC 2025 | MONDAY    | STARTED CREATING HTML FILES FOR ALL MODULES, LINKING PAGES AND NAVIGATION           |
+| 30 DEC 2025 | TUESDAY   | DEVELOPING RESULT PAGE, LOGIC IMPLEMENTATION AND DATA HANDLING USING JAVASCRIPT     |
+| 31 DEC 2025 | WEDNESDAY | TESTING ALL 6 PAGES, DEBUGGING ERRORS, FINAL MODIFICATIONS AND PROJECT SUBMISSION   |
 
-  <div class="text-center">
-    <a href="input.html" ><button class="btn-three"><b>LET'S START</b></button></a>
-    
-  </div>
-</div>
 
-<script src="script.js"></script>
+In the current recruitment process, evaluating a large number of resumes manually is time-consuming and challenging for HR professionals. To address this issue, this project presents a Mini AI Resume Shortlisting System, a web-based application that automatically analyses resumes and assists in candidate shortlisting.
 
-</body>
 
-</html>
+The system uses AI-like rule-based logic and skill matching techniques to evaluate resume content and classify candidates as Selected, Rejected, or Needs Improvement. It also provides improvement suggestions to help students enhance their resumes based on job requirements.
+
+
+This application is developed using HTML, CSS, Bootstrap, and JavaScript, ensuring a simple, fast, and user-friendly interface. By automating resume screening, the system helps reduce HR workload while guiding students to improve their resume quality. Although it does not use real machine learning algorithms, the project demonstrates effective AI-inspired decision-making suitable for academic implementation.
