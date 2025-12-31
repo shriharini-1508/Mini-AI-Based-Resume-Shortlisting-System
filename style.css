@@ -1,0 +1,170 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+.content-box {
+  max-width: 950px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
+}
+
+body{
+    background-image: url("images/images4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+  
+}
+.header-container {
+    display: flex;
+    align-items: center;   
+    gap: 15px;             
+    margin-top: 30px;      
+}
+
+.logo-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 350px;
+    margin-top: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+select{
+    width: 90%;          
+    max-width: 800px;     
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1.5px solid #764189; 
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.2); 
+    color: #000;
+    resize: vertical;     
+    overflow-y: auto; 
+}
+
+.btn-three {
+  position: relative;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: rgba(63, 81, 181, 0.75);
+  border: 1.5px solid #3f51b5;
+  border-radius: 6px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.btn-three::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease;
+}
+
+.btn-three:hover::before {
+  opacity: 0;
+  transform: scale(0.6);
+}
+
+.btn-three::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1.5px solid rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.textarea-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 15px;          
+    margin-top: 20px;
+}
+
+.resume-box {
+    width: 90%;          
+    max-width: 800px;
+    height: 200px;        
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1.5px solid #764189; 
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.2); 
+    color: #000;
+    resize: vertical;     
+    overflow-y: auto;    
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+    overflow-x: auto;       
+}
+
+.result-table {
+    border-collapse: collapse;
+    width: 90%;            
+    max-width: 800px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.result-table th, .result-table td {
+    border: 1px solid #764189;  
+    padding: 12px 15px;
+}
+
+.result-table th {
+    background-color: rgba(118, 65, 137, 0.8);
+    color: #fff;
+    font-weight: 600;
+}
+
+.result-table td {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000;
+}
+
+.congrats-container {
+    display: flex;
+    align-items: center;       
+    justify-content: center;  
+    gap: 100px;                
+    margin-top: 30px;
+}
+
+.congrats-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;                
+}
+
+.btn-link {
+    display: inline-block; 
+    text-decoration: none;  
+}
